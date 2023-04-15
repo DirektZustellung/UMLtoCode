@@ -32,7 +32,7 @@ namespace UMLtoCode
     {
         public string IBAN;
         protected float Amount;
-        public Transaction transaction;
+        
 
         public bool Transaction(string temp)
         {
@@ -46,6 +46,7 @@ namespace UMLtoCode
         public string To;
         public float Amount;
         public DateTime Request;
+        public Account account;
     }
 
     public class Investing : Account
